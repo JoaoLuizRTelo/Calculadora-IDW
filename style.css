@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: rgb(0, 1, 33);
+    height: 100vh;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 17px;
+    padding: 1.3%;
+    border: 0.6vw solid rgb(124, 124, 124);
+}
+
+.botao {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 6px;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 3px;
+    color: antiquewhite;
+    background-color: rgb(19, 19, 19);
+    border: none;
+}
+
+.botaos {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 6px;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 3px;
+    color: antiquewhite;
+    background-color: rgb(37, 37, 37);
+    border: none;
+}
+
+.botaoc {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 6px;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 3px;
+    color: antiquewhite;
+    background-color: rgb(255, 0, 0);
+    border: none;
+}
+
+.botaoi {
+    width: 5vw;
+    height: 10.5vw;
+    border-radius: 6px;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 103, 0);
+    border: none;
+}
+
+.botaoo {
+    width: 10.5vw;
+    height: 5vw;
+    border-radius: 6px;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 3px;
+    color: antiquewhite;
+    background-color: rgb(19, 19, 19);
+    border: none;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+.botaoo:hover {
+    background-color: black;
+}
+
+.botaoi:hover {
+    background-color: rgb(26, 255, 0);
+    color: black;
+}
+
+.botaos:hover {
+    background-color: rgba(0, 30, 255, 0.044);
+}
+
+.botaoc:hover {
+    background-color: rgba(255, 0, 0, 0.707);
+    color: white;
+}
+
+#result {
+    width: 98%;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    font-size: 2.5em;
+    padding: 1%;
+    text-align: end;
+}
+
+@media screen and (max-width: 800px) {
+    /*tamanho da fonte e do result (tamanho em si da calculadora)*/
+    .botao {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaos {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaoc {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaoi {
+        width: 10vw;
+        height: 21vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaoo {
+        width: 21vw;
+        height: 10vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    #result{
+        font-size: 3em;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .botao {
+        width: 12.5vw;
+        height: 12.5vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaos {
+        width: 12.5vw;
+        height: 12.5vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaoc {
+        width: 12.5vw;
+        height: 12.5vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaoi {
+        width: 12.5vw;
+        height: 26.25vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    .botaoo {
+        width: 27vw;
+        height: 12.5vw;
+        border-radius: 6px;
+        font-size: 2em;
+        margin: 3px;
+    }
+    
+    #result{
+        font-size: 2em;
+        height: 40px;
+    }
+}
